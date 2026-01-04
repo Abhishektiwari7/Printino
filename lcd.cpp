@@ -520,7 +520,7 @@ int colorPallete[] = {WHITE,BLUE,RED,GREEN,CYAN,MAGENTA,YELLOW,NAVY,DARKGREEN,DA
     #elifdef LINUX_PLATFORM
 
       #warning "I am using LINUX PLATFORM"
-
+        usleep(800000);
     #else 
       
       #error "compilation platform not defined"

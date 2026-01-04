@@ -3,9 +3,9 @@
 #include "image.h"
 
 //---bitbang pins------------------------------
-const int _CS    = 40;
-const int _RESET = 42;
-const int _SCLK  = 44;
+const int _CS    = 43;
+const int _RESET = 44;
+const int _SCLK  = 45;
 const int _SID   = 46; // Mosi
 //Backlight Default Gpio4 //PWM BRIGHTNESS
 Nokia105 display( _SID,  _SCLK, _RESET, _CS);
